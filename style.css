@@ -1,0 +1,112 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #f6f5f5;;}
+
+.container{
+    width: 360px;
+    margin: 100px auto;
+    border-radius: 20px;
+    background-color: #FFF;
+    padding: 56px 20px 91px 20px;
+}
+button{
+    border: none;
+    background-color: #FFF;
+    cursor: pointer;
+
+}
+
+.input {
+    border-radius: 20px;
+    border: none;
+    width: 300px;
+    height: 30px;
+    background-color:#EFEFEF;
+    padding: 15px;
+    
+}
+
+.menu-items{
+    padding: 0 4px;
+}
+
+
+.position-img{
+background-color:#EFEFEF;
+width: 74px;
+height: 74px;
+border-radius: 12px;
+text-align: center;
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+
+.menu-items h4{
+ color: #c4c4c4;
+ text-align: center;
+}
+
+.menu-position{
+    display: inline-block;
+    padding: 10px;
+}
+
+.menu-position:hover .position-img{ 
+ background-color:#EAE2B7; 
+}
+
+.menu-position:hover h4{
+    color: black;
+}
+    
+
+
+
+.burger-position-img{
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center ;
+    background-color: #EFEFEF; 
+    width: 316px;
+    height: 88px;
+    top: 421px;
+    left: 24px;
+    border-radius: 10px;
+    padding: 25px;
+    
+}
+
+.text{
+    margin: 30px;
+}
+
+.burger-price {
+   padding-block: 5px;
+   font-size: 15px;
+   color:#D62828;
+
+}
+
+.burger-position:hover .burger-position-img {
+    background-color: #EAE2B7;
+}
+
+.burger-menu .burger-position:first-child {
+    margin-top: 30px;
+}
+   
+.burger-menu .burger-position:last-child {
+    margin-bottom: 20px;
+}
+
+
+
+
+
+
+
